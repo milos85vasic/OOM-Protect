@@ -16,7 +16,7 @@ Staging tree mirrors `/etc/` so you can review everything before installing.
 ## Apply
 
 ```bash
-sudo /home/milosvasic/Downloads/system-config/install.sh
+sudo <path-to-checkout>/system-config/install.sh
 ```
 
 The installer is idempotent: re-running is safe. Pre-existing files are backed up to `/root/oom-hardening-backup-<timestamp>/` before being overwritten.

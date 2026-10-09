@@ -223,3 +223,7 @@ Internal incident-response artefact. Use freely on this host. No warranty.
 Built 2026-04-28 in response to the user-manager OOM-kill incident at
 18:36:35 MSK on `nezha`. Total downtime: 7 minutes. Total work lost:
 significant. Probability of recurrence after `make install`: very low.
+
+## License
+
+Copyright (c) Milos Vasic. Licensed under the Apache License, Version 2.0 -- see [`LICENSE`](LICENSE).
