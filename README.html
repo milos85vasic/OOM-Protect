@@ -2,17 +2,20 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
 <head>
   <meta charset="utf-8" />
-  <meta name="generator" content="pandoc" />
+  <meta name="generator" content="pandoc 3.10" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
   <meta name="author" content="System post-mortem 2026-04-28" />
   <meta name="dcterms.date" content="2026-04-28" />
   <title>OOM Protect</title>
   <style>
 
-code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
-div.columns{display: flex; gap: min(4vw, 1.5em);}
-div.column{flex: auto; overflow-x: auto;}
+div.columns{display: flex; gap: 1.5em;}
+div.column{flex: auto;}
+@media screen {
+div.columns{gap: min(4vw, 1.5em);}
+div.column{overflow-x: auto;}
+}
 div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
 
 ul.task-list[class]{list-style: none;}
@@ -268,7 +271,10 @@ context (for whoever inherits this machine)</a></li>
 <li><a href="#companion-alias-suggestions" id="toc-companion-alias-suggestions">Companion alias
 suggestions</a></li>
 <li><a href="#license-credits" id="toc-license-credits">License &amp;
-credits</a></li>
+credits</a>
+<ul>
+<li><a href="#license" id="toc-license">License</a></li>
+</ul></li>
 </ul>
 </nav>
 <section id="oom-protect" class="level1">
@@ -672,6 +678,11 @@ warranty.</p>
 18:36:35 MSK on <code>nezha</code>. Total downtime: 7 minutes. Total
 work lost: significant. Probability of recurrence after
 <code>make install</code>: very low.</p>
+<section id="license" class="level2">
+<h2>License</h2>
+<p>Copyright (c) Milos Vasic. Licensed under the Apache License, Version
+2.0 – see <a href="LICENSE"><code>LICENSE</code></a>.</p>
+</section>
 </section>
 </body>
 </html>
